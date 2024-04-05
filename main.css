@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: rgb(255, 0, 0);
+}
+
+p {
+    color: blue;
+}
+
+.centraliza-texto {
+    text-align: center;
+}
