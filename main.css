@@ -7,7 +7,14 @@ h1 {
 p {
     color: blue;
 }
-
+/*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+*/
 .centraliza-texto {
     text-align: center;
 }
+    
