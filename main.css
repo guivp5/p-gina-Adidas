@@ -17,12 +17,12 @@ header {
     text-align: center;
 }
 
-header > h1 {
-    font-family: Arial, Helvetica, sans-serif; 
+header>h1 {
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: smaller;
-    font-style: normal; 
+    font-style: normal;
 }
 
 nav {
@@ -31,19 +31,108 @@ nav {
     padding-bottom: 1px;
 }
 
+nav>Sul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+nav>li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+._header_top_svty4_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 32px;
+    list-style: none;
+}
+
+._header_top_svty4_1>li {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+.navbar {
+    background-color: #f8f8f8;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
 .adidas {
     width: 3%;
     height: auto;
 }
 
-main > img {
+main>img {
     width: 100%;
     height: 100%;
 }
 
-p {
-    color: blue;
-}
+
 /*
     display: flex;
     justify-content: center;
