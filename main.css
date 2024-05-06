@@ -11,7 +11,7 @@ body {
 
 header {
     background-color: rgb(0, 0, 0);
-    padding: 12px;
+    padding: 10px;
     margin: auto;
     width: 100%;
     text-align: center;
@@ -26,50 +26,16 @@ header>h1 {
 }
 
 nav {
-    background-color: white;
-    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
     padding-bottom: 1px;
-}
-
-nav>Sul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    unicode-bidi: isolate;
-}
-
-nav>li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-    unicode-bidi: isolate;
-}
-
-._header_top_svty4_1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    height: 32px;
-    list-style: none;
-}
-
-._header_top_svty4_1>li {
-    display: flex;
-    align-items: center;
-    position: relative;
-    height: 100%;
-    padding: 0;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 50px;
 }
 
 .logo img {
@@ -80,11 +46,13 @@ nav>li {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
 }
 
 .nav-links li {
     display: inline;
     margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-links li a {
@@ -113,18 +81,12 @@ nav>li {
 }
 
 .navbar {
-    background-color: #f8f8f8;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    position: fixed;
+    background-color: #ffffff;
+    position: relative;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1000;
-}
-
-.adidas {
-    width: 3%;
-    height: auto;
 }
 
 main>img {
@@ -132,14 +94,33 @@ main>img {
     height: 100%;
 }
 
-
-/*
+.banner {
+    width: 100%;
+    height: 100%;
+    background-image: url('imagens/ss24_football_br_flamengo_launch_mh_hp_d_54802aecdd.avif');
+    color: white;
+    padding: 300px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 100px;
-*/
-.centraliza-texto {
+    justify-content: space-between;
+}
+
+.banner-text {
+    width: 30%;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.times {
     text-align: center;
 }
+
