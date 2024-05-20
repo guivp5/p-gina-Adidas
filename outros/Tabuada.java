@@ -4,17 +4,16 @@ public class Tabuada {
     public static void main(String[] args) {
         
         Scanner scanner = new Scanner(System.in);
-        int numero;
-        int i;
+        int N, i;
 
-        System.out.println("Escolha um numero:");
-        numero = scanner.nextInt();
+        printf("Quantos numeros voce quer de 1 a 10");
+        scanf("%d", &N)
 
-        for (i = 1; i <= 10; i++) {
-            System.out.println(numero + " x " + i + " = " + numero * i);
+        for (i = 0; i = N; i++) {
+            
         }
-        
-        scanner.close();
-    }
 
+        scanner.close();
+        return 0;
+    }
 }
